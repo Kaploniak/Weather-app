@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: "Livvic", sans-serif;
+  background-image: url("../src/background2.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.397) 5px 5px;
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
+  padding-top: 2rem;
+  padding-bottom: 1.7rem;
+  font-size: 3rem;
+}
+
+.form {
+  padding-bottom: 2rem;
+}
+
+input {
+  border: 2px none;
+  border-bottom: 2px solid white;
+  margin: 10px;
+  background-color: transparent;
+  font-weight: bold;
+  text-shadow: rgba(0, 0, 0, 0.397) 5px 5px;
+}
+
+input[type="text"] {
+  color: white;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.pic {
+  margin: auto;
+  font-size: 5rem;
+}
+
+.fas {
+  text-shadow: 5px 5px rgba(0, 0, 0, 0.397);
+}
+
+button {
+  color: white;
+  font-size: 1.2rem;
+  line-height: 17px;
+  padding: 0.55rem;
+  border-radius: 4px;
+  background-color: rgb(207, 140, 15);
+  box-shadow: rgba(0, 0, 0, 0.301) 5px 5px;
+  display: inline-block;
+}
+button:hover {
+  background: #1c6ea4;
+}
+button:active {
+  color: white;
+  font-size: 1.2rem;
+  line-height: 17px;
+  padding: 0.55rem;
+  border-radius: 4px;
+  box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+  display: inline-block;
+  background: #144e75;
+}
+
+/* .apexchartsbb014c3s {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  overflow: hidden;
+} */
+
+#chartWeather {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 30%; */
+  /* margin: auto; */
+  /* overflow: hidden; */
+}
+.apexcharts-yaxis {
+  color: white;
+}
