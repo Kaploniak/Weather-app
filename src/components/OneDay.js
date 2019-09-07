@@ -25,7 +25,7 @@ const OneDay = props => {
       </h2>
       <h2 className="pic">{weather && ref[weather[0].main]}</h2>
       <h2>{weather && weather[0].description}</h2>
-      <button onClick={handleClick}>5 days</button>
+      {/* <button onClick={handleClick}>5 days</button> */}
     </>
   );
 };
