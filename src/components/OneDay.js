@@ -12,9 +12,9 @@ const OneDay = props => {
     Snow: <i className="fas fa-snowflake" />
   };
 
-  const handleClick = e => {
-    props.updateForecastFlag({ forecast: false });
-  };
+  // const handleClick = e => {
+  //   props.updateForecastFlag({ forecast: false });
+  // };
 
   return (
     <>

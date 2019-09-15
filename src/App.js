@@ -6,7 +6,8 @@ import OneDay from "./components/OneDay";
 import axios from "axios";
 import Geolocation from "./components/Geolocation";
 import FiveDay from "./components/FiveDay";
-const { API_KEY } = require("./config");
+const API_KEY = "ac078ec07b106b88c2797b4a420b5665";
+// const { API_KEY } = require("./config");
 
 class App extends React.Component {
   state = {
